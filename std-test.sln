@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "executable", "executable\executable.csproj", "{EF9465B5-4DCA-4856-898C-2C9511F95AC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "executable", "executable\executable.csproj", "{EF9465B5-4DCA-4856-898C-2C9511F95AC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "standard", "standard\standard.csproj", "{D31528C8-B044-40A5-A06F-D8C70A60F2B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "standard", "standard\standard.csproj", "{D31528C8-B044-40A5-A06F-D8C70A60F2B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SonarQube", "SonarQube", "{A299A29C-A36F-41F8-8DFF-63FE197BADF5}"
+	ProjectSection(SolutionItems) = preProject
+		SonarQube\michalb-fooCSharp.ruleset = SonarQube\michalb-fooCSharp.ruleset
+		SonarQube\SolutionBinding.sqconfig = SonarQube\SolutionBinding.sqconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

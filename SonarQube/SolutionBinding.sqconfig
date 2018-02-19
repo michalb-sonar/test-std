@@ -1,0 +1,14 @@
+{
+  "ServerUri": "https://sonarcloud.io",
+  "Organization": {
+    "Key": "michalb-sonar-github",
+    "Name": "michalb-sonar"
+  },
+  "ProjectKey": "michalb-foo",
+  "Profiles": {
+    "CSharp": {
+      "ProfileKey": "AV8qKYlwfwWpOfyf_nMZ",
+      "ProfileTimestamp": "2018-02-14T07:15:56+01:00"
+    }
+  }
+}

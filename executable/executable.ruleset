@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RuleSet Name="SonarQube - michalb-foo Sonar way" ToolsVersion="15.0">
+  <Include Path="..\sonarqube\michalb-foocsharp.ruleset" Action="Default" />
+</RuleSet>
